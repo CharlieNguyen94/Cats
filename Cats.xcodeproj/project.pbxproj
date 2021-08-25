@@ -13,6 +13,8 @@
 		950D6B2E26D66F6800E8482F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950D6B2D26D66F6800E8482F /* Preview Assets.xcassets */; };
 		950D6B3926D66F6800E8482F /* CatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950D6B3826D66F6800E8482F /* CatsTests.swift */; };
 		950D6B4426D66F6800E8482F /* CatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950D6B4326D66F6800E8482F /* CatsUITests.swift */; };
+		950D6B5526D6748A00E8482F /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950D6B5426D6748A00E8482F /* Breed.swift */; };
+		950D6B5726D6764D00E8482F /* BreedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950D6B5626D6764D00E8482F /* BreedImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		950D6B3F26D66F6800E8482F /* CatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		950D6B4326D66F6800E8482F /* CatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsUITests.swift; sourceTree = "<group>"; };
 		950D6B4526D66F6800E8482F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		950D6B5426D6748A00E8482F /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		950D6B5626D6764D00E8482F /* BreedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,9 @@
 			children = (
 				950D6B2626D66F6600E8482F /* CatsApp.swift */,
 				950D6B2826D66F6600E8482F /* ContentView.swift */,
+				950D6B5326D6745B00E8482F /* View */,
+				950D6B5226D6745400E8482F /* Networking */,
+				950D6B5126D6744900E8482F /* Model */,
 				950D6B2A26D66F6800E8482F /* Assets.xcassets */,
 				950D6B2F26D66F6800E8482F /* Info.plist */,
 				950D6B2C26D66F6800E8482F /* Preview Content */,
@@ -128,6 +135,29 @@
 				950D6B4526D66F6800E8482F /* Info.plist */,
 			);
 			path = CatsUITests;
+			sourceTree = "<group>";
+		};
+		950D6B5126D6744900E8482F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				950D6B5426D6748A00E8482F /* Breed.swift */,
+				950D6B5626D6764D00E8482F /* BreedImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		950D6B5226D6745400E8482F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		950D6B5326D6745B00E8482F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				950D6B5726D6764D00E8482F /* BreedImage.swift in Sources */,
+				950D6B5526D6748A00E8482F /* Breed.swift in Sources */,
 				950D6B2926D66F6600E8482F /* ContentView.swift in Sources */,
 				950D6B2726D66F6600E8482F /* CatsApp.swift in Sources */,
 			);
@@ -347,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -402,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -422,7 +454,7 @@
 				DEVELOPMENT_TEAM = F27HQ4FLX4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Cats/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +476,7 @@
 				DEVELOPMENT_TEAM = F27HQ4FLX4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Cats/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,7 +496,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F27HQ4FLX4;
 				INFOPLIST_FILE = CatsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,7 +518,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F27HQ4FLX4;
 				INFOPLIST_FILE = CatsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
