@@ -13,7 +13,8 @@ struct LoadingView: View {
         Text("😺")
             .font(.system(size: 40))
         ProgressView()
-            
+            Text("Loading cats...")
+                .foregroundColor(.gray)
         }
     }
 }
