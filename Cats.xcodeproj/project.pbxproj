@@ -20,6 +20,7 @@
 		950D6B5D26D6796B00E8482F /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950D6B5C26D6796B00E8482F /* ErrorView.swift */; };
 		950D6B5F26D6797B00E8482F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950D6B5E26D6797B00E8482F /* LoadingView.swift */; };
 		950D6B6126D67C6F00E8482F /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950D6B6026D67C6F00E8482F /* APIError.swift */; };
+		950D6B6326D681E800E8482F /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950D6B6226D681E800E8482F /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		950D6B5C26D6796B00E8482F /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		950D6B5E26D6797B00E8482F /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		950D6B6026D67C6F00E8482F /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		950D6B6226D681E800E8482F /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			children = (
 				950D6B5826D6777600E8482F /* BreedFetcher.swift */,
 				950D6B6026D67C6F00E8482F /* APIError.swift */,
+				950D6B6226D681E800E8482F /* APIService.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				950D6B5926D6777600E8482F /* BreedFetcher.swift in Sources */,
 				950D6B5D26D6796B00E8482F /* ErrorView.swift in Sources */,
 				950D6B5F26D6797B00E8482F /* LoadingView.swift in Sources */,
+				950D6B6326D681E800E8482F /* APIService.swift in Sources */,
 				950D6B2726D66F6600E8482F /* CatsApp.swift in Sources */,
 				950D6B5B26D6796000E8482F /* BreedListView.swift in Sources */,
 				950D6B6126D67C6F00E8482F /* APIError.swift in Sources */,
