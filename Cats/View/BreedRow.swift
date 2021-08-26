@@ -16,7 +16,9 @@ struct BreedRow: View {
         HStack {
             
             if breed.image?.url != nil {
-                
+                AsyncImage(url: URL(string: breed.image!.url!)) { phase in
+                    if let image = phase.image
+                }
             }
             
             VStack(alignment: .leading, spacing: 5) {
