@@ -18,6 +18,14 @@ struct ErrorView: View {
                 .font(.system(size: 30))
             
             Text(breedFetcher.errorMessage ?? "")
+                .padding(5)
+            
+            Button {
+                breedFetcher.fetchAllBreeds()
+            } label: {
+                Text("Try again")
+            }
+
             
         }
     }
