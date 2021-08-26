@@ -13,3 +13,4 @@
 ## Techniques
 - Protocols
 - Dependency Injection
+- Caching Images
