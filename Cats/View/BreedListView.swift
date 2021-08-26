@@ -11,12 +11,24 @@ struct BreedListView: View {
     
     let breeds: [Breed]
     
+    @State private var searchText: String = ""
+    
     var body: some View {
-        List {
-            ForEach(breeds) { breed in
-                Text(breed.name)
+        NavigationView {
+            List {
+                ForEach(breeds) { breed in
+                    NavigationLink(
+                        destination: BreedDetailView(breed: breed),
+                        label: {
+                            BreedRow(breed: breed)
+                        })
+                }
             }
+            .listStyle(PlainListStyle())
+            .navigationTitle("Find your perfect cat")
+            
         }
+        
     }
 }
 
