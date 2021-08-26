@@ -37,7 +37,9 @@ struct BreedListView: View {
             .searchable(text: $searchText)
             
         }
-        
+        .onAppear {
+            URLCache.shared.memoryCapacity = 1024 * 1024 * 512
+        }
     }
 }
 

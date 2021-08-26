@@ -17,20 +17,9 @@ struct BreedRow: View {
         HStack {
             
             if breed.image?.url != nil {
-                AsyncImage(url: URL(string: breed.image!.url!)) { phase in
-                    if let image = phase.image {
-                        image.resizable()
-                            .scaledToFill()
-                            .frame(width: imageSize, height: imageSize)
-                            .clipped()
-                    } else if phase.error != nil {
-                        Color.red // Indicates an error.
-                            .frame(width: imageSize, height: imageSize)
-                    } else {
-                        ProgressView()
-                            .frame(width: imageSize, height: imageSize)
-                    }
-                }
+                
+                ImageLoadingView(url: breed.image?.url)
+                
             } else {
                 Color.gray.frame(width: imageSize, height: imageSize)
             }
