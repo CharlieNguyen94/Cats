@@ -23,6 +23,8 @@
 		950D6B6326D681E800E8482F /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950D6B6226D681E800E8482F /* APIService.swift */; };
 		950D6B6526D6A15900E8482F /* BreedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950D6B6426D6A15900E8482F /* BreedRow.swift */; };
 		950D6B6726D6A18200E8482F /* BreedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950D6B6626D6A18200E8482F /* BreedDetailView.swift */; };
+		95D995FA26D7B08E00B45D60 /* APIMockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D995F926D7B08E00B45D60 /* APIMockService.swift */; };
+		95D995FC26D7B0AA00B45D60 /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D995FB26D7B0AA00B45D60 /* APIServiceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		950D6B6226D681E800E8482F /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		950D6B6426D6A15900E8482F /* BreedRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedRow.swift; sourceTree = "<group>"; };
 		950D6B6626D6A18200E8482F /* BreedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailView.swift; sourceTree = "<group>"; };
+		95D995F926D7B08E00B45D60 /* APIMockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMockService.swift; sourceTree = "<group>"; };
+		95D995FB26D7B0AA00B45D60 /* APIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,8 @@
 				950D6B5826D6777600E8482F /* BreedFetcher.swift */,
 				950D6B6026D67C6F00E8482F /* APIError.swift */,
 				950D6B6226D681E800E8482F /* APIService.swift */,
+				95D995F926D7B08E00B45D60 /* APIMockService.swift */,
+				95D995FB26D7B0AA00B45D60 /* APIServiceProtocol.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -324,6 +330,8 @@
 				950D6B6726D6A18200E8482F /* BreedDetailView.swift in Sources */,
 				950D6B5926D6777600E8482F /* BreedFetcher.swift in Sources */,
 				950D6B5D26D6796B00E8482F /* ErrorView.swift in Sources */,
+				95D995FA26D7B08E00B45D60 /* APIMockService.swift in Sources */,
+				95D995FC26D7B0AA00B45D60 /* APIServiceProtocol.swift in Sources */,
 				950D6B5F26D6797B00E8482F /* LoadingView.swift in Sources */,
 				950D6B6326D681E800E8482F /* APIService.swift in Sources */,
 				950D6B2726D66F6600E8482F /* CatsApp.swift in Sources */,
